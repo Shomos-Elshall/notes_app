@@ -12,7 +12,7 @@ class AddButton extends StatelessWidget {
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
       ),
       onPressed: () {},
-      child: Text("Add", style: TextStyle(color: Colors.black)),
+      child: Text("Add", style: TextStyle(color: Colors.black, fontSize: 24)),
     );
   }
 }
